@@ -5,7 +5,7 @@ Before launching the website, search all HTML files for these placeholders and r
 ## Global / Business Information
 - [ ] `[LEGAL ENTITY NAME]` (e.g., Nagabyte Inc., or an individual's name if acting as a sole proprietor)
 - [ ] `[BUSINESS ADDRESS]` (Physical mailing address, required for some app stores)
-- [ ] `[SUPPORT EMAIL]` (e.g., admin@nagabyte.com)
+- [ ] `admin@nagabyte.com` (e.g., admin@nagabyte.com)
 - [ ] `[PRIVACY CONTACT EMAIL]` (Can be the same as support, e.g., privacy@nagabyte.com)
 
 ## App Links
