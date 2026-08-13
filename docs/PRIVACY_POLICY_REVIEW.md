@@ -8,7 +8,7 @@ This document is for internal use only to track unverified legal and technical d
 These items require confirmation from the organization's stakeholders or legal counsel:
 - [ ] **Legal Entity Name**: Currently referring generally to "Nagabyte". The exact registered business name needs to be confirmed.
 - [ ] **Business Address**: Required for Google Play Console depending on monetization status. (Missing).
-- [ ] **Privacy Contact Email**: Currently using `support@nagabyte.com`. Need to verify if a dedicated `privacy@nagabyte.com` is preferred.
+- [ ] **Privacy Contact Email**: Currently using `admin@nagabyte.com`. Need to verify if a dedicated `privacy@nagabyte.com` is preferred.
 - [ ] **Terms of Service Limitations**: Need legal review of the liability disclaimers regarding financial advice and any potential AI-generated results.
 - [ ] **Subscriptions**: If Daily Ledger adds subscriptions or in-app purchases, the Terms of Service must be updated to reflect Apple/Google payment terms.
 
