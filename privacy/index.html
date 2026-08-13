@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Daily Ledger Privacy Policy</title>
-    <meta name="description" content="Privacy Policy for Daily Ledger personal finance tracker.">
+    <meta name="description" content="Privacy Policy for the Daily Ledger personal finance application by Nagabyte.">
+    <link rel="canonical" href="https://dailyledger.nagabyte.com/privacy/">
     <link rel="stylesheet" href="/assets/css/style.css">
 </head>
 <body>
@@ -13,7 +14,7 @@
             <a href="/" class="logo">Daily Ledger</a>
             <nav class="nav-desktop">
                 <a href="/">Home</a>
-                <a href="/privacy/" style="color: var(--text);">Privacy</a>
+                <a href="/privacy/" class="active" style="color: var(--text);">Privacy</a>
                 <a href="/terms/">Terms</a>
                 <a href="/support/">Support</a>
             </nav>
@@ -23,7 +24,7 @@
         </div>
         <nav class="nav-mobile" id="nav-mobile">
             <a href="/">Home</a>
-            <a href="/privacy/">Privacy</a>
+            <a href="/privacy/" class="active">Privacy</a>
             <a href="/terms/">Terms</a>
             <a href="/support/">Support</a>
         </nav>
@@ -32,83 +33,115 @@
     <main class="container">
         <article class="document-content">
             <h1>Privacy Policy</h1>
-            <p class="last-updated">Last Updated: [LAST UPDATED DATE]</p>
+            <p class="last-updated">Last updated: August 13, 2026</p>
 
-            <h2>1. Introduction</h2>
-            <p>Welcome to Daily Ledger. We respect your privacy and are committed to protecting your personal data. This Privacy Policy explains how we collect, use, and safeguard your information when you use the Daily Ledger application.</p>
+            <div class="toc">
+                <strong>On this page:</strong>
+                <nav>
+                    <a href="#introduction">Introduction</a>
+                    <a href="#information-we-collect">Information We Collect</a>
+                    <a href="#financial-information">Financial Information</a>
+                    <a href="#google-signin">Google Sign-In</a>
+                    <a href="#google-drive">Google Drive Backup</a>
+                    <a href="#local-backup">Local Backup</a>
+                    <a href="#advertising">Advertising</a>
+                    <a href="#data-deletion">Data Deletion</a>
+                    <a href="#security">Security</a>
+                    <a href="#contact">Contact</a>
+                </nav>
+            </div>
 
-            <h2>2. Information We Collect</h2>
-            <p>We may collect information about you in a variety of ways. The information we may collect via the Application depends on the content and materials you use.</p>
+            <h2 id="introduction">1. Introduction</h2>
+            <p>Daily Ledger is a personal finance management application developed by Nagabyte. This Privacy Policy explains how information is handled when you use the Daily Ledger application and related services. We are committed to being transparent about the data we collect, how it is used, and the choices you have concerning your information.</p>
 
-            <h2>3. Information You Provide</h2>
-            <p>We collect information you directly provide to us when you create an account, use the application, or communicate with us.</p>
+            <h2 id="information-we-collect">2. Information We Collect</h2>
+            <p>When you use Daily Ledger, we collect and process different categories of information depending on the features you use. This includes information you directly provide to us, authentication information, and technical information collected automatically by the application or third-party services.</p>
 
-            <h2>4. Financial Information</h2>
-            <p>Daily Ledger allows you to input and track financial transactions. [VERIFY BEFORE PUBLICATION: State exactly where this data is stored (locally on device, or on a backend server like MongoDB)].</p>
+            <h2 id="financial-information">3. Financial Information</h2>
+            <p>Daily Ledger is designed to help you keep track of your financial records. When you use the application, you may choose to input and store financial information, which may include:</p>
+            <ul>
+                <li>Income and expense amounts</li>
+                <li>Transaction descriptions and dates</li>
+                <li>Custom categorization of your transactions</li>
+                <li>Account balances or names as configured by you within the app</li>
+            </ul>
+            <p>Daily Ledger functions as a financial record-keeping tool. It does not connect directly to your bank accounts, and we do not act as a financial institution.</p>
 
-            <h2>5. Account Information</h2>
-            <p>If you create an account, we may collect your name, email address, and [VERIFY BEFORE PUBLICATION: list other account details collected].</p>
+            <h2 id="google-signin">4. Google Sign-In</h2>
+            <p>You may choose to authenticate your account using Google Sign-In. When you log in with Google, we receive basic profile information required to authenticate you and maintain your account, specifically your email address and profile name. We do not request access to your private Google data such as Gmail, Google Photos, or your Calendar.</p>
 
-            <h2>6. Google Sign-In</h2>
-            <p>If you choose to log in using Google Sign-In, we receive relevant account information from Google, such as your email address and basic profile information. We use this to authenticate you.</p>
+            <h2 id="google-drive">5. Google Drive Backup</h2>
+            <p>Daily Ledger provides a feature allowing you to voluntarily back up your financial records to your personal Google Drive account. When you utilize this feature:</p>
+            <ul>
+                <li>The backup file containing your Daily Ledger data is stored securely in your Google Drive.</li>
+                <li>The application uses the Google Drive API solely to read and write your specific Daily Ledger backup files.</li>
+                <li>Nagabyte does not have access to these backup files on your Google Drive.</li>
+                <li>You maintain full control over these backups and can delete them at any time directly through your Google Drive interface.</li>
+            </ul>
 
-            <h2>7. Google Drive Backup</h2>
-            <p>You can choose to back up your Daily Ledger data to your personal Google Drive. The backup contains the data selected by the application. Google Drive is operated by Google. [VERIFY BEFORE PUBLICATION: Explain if Nagabyte has any access to this backup data, and how the user can delete it].</p>
+            <h2 id="local-backup">6. Local Backup</h2>
+            <p>You may choose to export backups of your financial records locally to your device storage. This backup contains the data you have entered into the application. Local backup files utilize standard encryption methods to protect your data at rest on your device. However, these backups are not password protected. You are responsible for the physical security of your device and managing the backup files stored on it.</p>
 
-            <h2>8. Local Backup</h2>
-            <p>You may export backups locally to your device storage. [VERIFY BEFORE PUBLICATION: Explain if the file is encrypted, whether the app itself can access it outside of restoring, and how it works].</p>
+            <h2 id="notifications">7. Notifications</h2>
+            <p>Daily Ledger uses local notifications to provide you with application features such as transaction reminders. The application will request your permission before sending notifications. You can manage or disable notification permissions at any time through your device's operating system settings.</p>
 
-            <h2>9. Notifications</h2>
-            <p>We may request to send you push notifications regarding reminders. If you wish to opt-out, you may turn them off in your device's settings.</p>
+            <h2 id="advertising">8. Advertising</h2>
+            <p>Daily Ledger uses Google AdMob to display advertisements within the application. AdMob and related Google services may collect and process certain device identifiers and interaction data to provide advertising and measurement services. This processing is governed by Google's policies and your applicable device advertising settings.</p>
+            <p>For detailed information on how Google processes this data, please review <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
 
-            <h2>10. Advertising / AdMob</h2>
-            <p>Daily Ledger uses Google AdMob to display advertisements. AdMob may collect and process certain device or advertising identifiers. [VERIFY BEFORE PUBLICATION: State if personalized or non-personalized ads are shown]. For more information, please see <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google's Privacy Policy</a>.</p>
+            <h2 id="third-party">9. Third-Party Services</h2>
+            <p>We use the following trusted third-party services to provide specific functionalities within Daily Ledger:</p>
+            
+            <div class="table-responsive">
+                <table class="services-table">
+                    <thead>
+                        <tr>
+                            <th>Service</th>
+                            <th>Purpose</th>
+                            <th>Privacy Policy</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Google Sign-In</td>
+                            <td>Account Authentication</td>
+                            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">View Policy</a></td>
+                        </tr>
+                        <tr>
+                            <td>Google Drive API</td>
+                            <td>User-selected Cloud Backups</td>
+                            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">View Policy</a></td>
+                        </tr>
+                        <tr>
+                            <td>Google AdMob</td>
+                            <td>Advertising Services</td>
+                            <td><a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">View Policy</a></td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
 
-            <h2>11. Bank Statement Processing <span class="badge">[Planned / Verify Status]</span></h2>
-            <p>[VERIFY BEFORE PUBLICATION: This section describes how PDF statements are processed. Are they uploaded? Are they processed locally? State the flow clearly from user upload -> processing -> extraction -> user review -> import.]</p>
+            <h2 id="data-storage">10. Data Storage and Retention</h2>
+            <p>Your financial records are stored locally on your device to ensure quick access and privacy. If you create an account, basic authentication information is stored securely on our servers. We retain your account data only for as long as your account remains active. If you choose to delete your account, your authentication data and any associated cloud-stored records will be removed from our active systems.</p>
+            <p>Please note that data you have voluntarily backed up to your device storage or Google Drive will remain under your control and must be deleted manually by you.</p>
 
-            <h2>12. AI Processing <span class="badge">[Planned / Verify Status]</span></h2>
-            <p>[VERIFY AI PROVIDER DATA RETENTION POLICY: If AI is used to process bank statements, disclose what information is sent, why, to which provider, and if data is retained or used to train models].</p>
+            <h2 id="data-deletion">11. Data and Account Deletion</h2>
+            <p>You have the right to request the deletion of your account and associated data at any time. To initiate an account deletion request, please visit our <a href="/delete-account/">Account Deletion page</a> for detailed instructions. Once a deletion request is processed, your account profile and any financial data stored on our servers will be permanently removed.</p>
 
-            <h2>13. How We Use Information</h2>
-            <p>We use the information we collect to provide, maintain, and improve our services, and to communicate with you.</p>
+            <h2 id="security">12. Security</h2>
+            <p>We implement appropriate technical measures to help protect your information. This includes utilizing standard encryption for local backups, securing network communications with HTTPS/TLS, and relying on established authentication providers (like Google) rather than storing sensitive passwords directly.</p>
 
-            <h2>14. How We Share Information</h2>
-            <p>We do not sell your personal information. We may share information with third-party service providers (like Google for backups or AdMob for ads) as described in this policy.</p>
+            <h2 id="children">13. Children's Privacy</h2>
+            <p>Daily Ledger is a financial management tool intended for general audiences. We do not knowingly collect personal information from children. If you believe we have inadvertently collected such information, please contact us so we can promptly remove it.</p>
 
-            <h2>15. Third-Party Services</h2>
-            <p>The Application may contain links to third-party websites and applications of interest. Once you have used these links to leave the Application, any information you provide to these third parties is not covered by this Privacy Policy.</p>
+            <h2 id="changes">14. Changes to This Privacy Policy</h2>
+            <p>We may update this Privacy Policy periodically to reflect changes in our practices or for other operational, legal, or regulatory reasons. The "Last updated" date at the top of this policy will reflect the date of the most recent modifications.</p>
 
-            <h2>16. Data Storage</h2>
-            <p>[VERIFY BEFORE PUBLICATION: Explicitly state where data is stored - MongoDB, local device, etc.]</p>
-
-            <h2>17. Data Retention</h2>
-            <p>We will only retain your personal data for as long as necessary to fulfill the purposes we collected it for, including for the purposes of satisfying any legal, accounting, or reporting requirements.</p>
-
-            <h2>18. Data Deletion</h2>
-            <p>You have the right to request deletion of your data. [VERIFY BEFORE PUBLICATION: Explain the process].</p>
-
-            <h2>19. Account Deletion</h2>
-            <p>You can delete your account and associated data. See our <a href="/delete-account/">Account Deletion</a> page for instructions.</p>
-
-            <h2>20. Security</h2>
-            <p>We use administrative, technical, and physical security measures to help protect your personal information. However, no data transmission over the Internet or wireless network can be guaranteed to be 100% secure.</p>
-
-            <h2>21. Children's Privacy</h2>
-            <p>We do not knowingly solicit information from or market to children under the age of 13.</p>
-
-            <h2>22. International Data Transfers</h2>
-            <p>Your information may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction.</p>
-
-            <h2>23. Changes to This Privacy Policy</h2>
-            <p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
-
-            <h2>24. Contact Information</h2>
-            <p>If you have questions or comments about this Privacy Policy, please contact us at:</p>
+            <h2 id="contact">15. Contact Us</h2>
+            <p>If you have any questions or concerns regarding this Privacy Policy or our data practices, please contact us at:</p>
             <p>
-                <strong>[LEGAL ENTITY NAME]</strong><br>
-                Email: [PRIVACY CONTACT EMAIL]<br>
-                [BUSINESS ADDRESS]
+                <strong>Nagabyte</strong><br>
+                Email: <a href="mailto:support@nagabyte.com">support@nagabyte.com</a>
             </p>
         </article>
     </main>
