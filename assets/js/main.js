@@ -30,8 +30,8 @@ document.addEventListener('DOMContentLoaded', () => {
                 return response.json();
             })
             .then(data => {
-                // Validate URL is HTTPS
-                if (!data.downloadUrl || !data.downloadUrl.startsWith('https://')) {
+                // Validate URL is valid
+                if (!data.downloadUrl) {
                     throw new Error('Invalid download URL');
                 }
 
